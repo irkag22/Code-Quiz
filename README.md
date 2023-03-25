@@ -15,3 +15,7 @@ Can visit GH for the code and the Live Link to take the quiz.
 ## License
 
 MIT
+
+## Other
+
+Worked with tutor on script.js
