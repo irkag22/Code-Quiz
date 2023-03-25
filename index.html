@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=Code-Quiz, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=Code-Quiz, initial-scale=1.0" />
     <title>Coding Quiz</title>
-    <link rel="resetsheet" href="./Assets/css/reset.css"
-    <link rel="stylesheet" href="./Assets/css/style.css"
-</head>
-<body>
-    <div>
-<button class="startbtn">Start Quiz</button>
-</div>
-<input type="text"  
-
-
-
-    <script src="./Assets/js/script.js"
-</body>
+    <link rel="resetsheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="start-container">
+        <div>Enter Your Initials and Press START QUIZ Button to Begin Quiz</div>
+        <input type="text" />
+        <button class="startbtn" id="startBtn">Start Quiz</button>
+      </div>
+      <div id="question-container"></div>
+      <div id="saved-container"
+    </div>
+    <div id="card">
+      <h2>Last Saved Score</h2>
+      <p>User Initials<span id="saved-user"></span></p>
+      <p>Score <span id="saved-score"></span></p>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>

@@ -1,4 +1,31 @@
 .startbtn {
-    color: rgb(139, 73, 139);
-    border-radius: 20px;
+  color: rgb(139, 73, 139);
+  border-radius: 20px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  background-color: #ffffe0;
+  border: 1px solid #eceff1;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  margin: 40px 20px;
+  padding: 20px;
+  width: 40vw;
+  float: left;
+}
+#card::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
