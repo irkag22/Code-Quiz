@@ -44,7 +44,7 @@ var questions = [
       "Creates pop=up boxes",
       "Assigns border margins",
     ],
-    answer: "Makes the website dyanamic",
+    answer: "Makes the website dynamic",
   },
 ];
 
@@ -99,28 +99,28 @@ function endGame() {
   // do logic here for when you finish the game, maybe log the score, and after that redirect to the highscores page/ component
 }
 
-function renderLastScore() {
-  var lastScore = JSON.parse(localStorage.getItem("userScore"));
-  if (lastScore !== null) {
-    document.getElementById("saved-initials").innerHTML = lastScore.user;
-    document.getElementById("saved-score").innerHTML = lastScore.score;
-  } else {
-    return;
-  }
-}
+// function renderLastScore() {
+//   var lastScore = JSON.parse(localStorage.getItem("userScore"));
+//   if (lastScore !== null) {
+//     document.getElementById("saved-initials").innerHTML = lastScore.user;
+//     document.getElementById("saved-score").innerHTML = lastScore.score;
+//   } else {
+//     return;
+//   }
+// }
 
-function init() {
-  renderLastScore();
-}
-init();
+// function init() {
+//   renderLastScore();
+// }
+// init();
 
 startBtn.addEventListener("click", startQuiz);
 answerButton.addEventListener("click", checkAnswer);
-saveBtn.addEventListener("click", function (event) {
-  event.preventDefault();
-  saveLastGrade();
-  renderLastGrade();
-});
+// saveBtn.addEventListener("click", function (event) {
+//   event.preventDefault();
+//   saveLastGrade();
+//   renderLastGrade();
+// });
 
 // timer
 // collecting the user name and the timer value as the score

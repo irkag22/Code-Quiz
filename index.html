@@ -10,19 +10,21 @@
   </head>
   <body>
     <div class="main-container">
+      <h1 id="countdown"></h1>
       <div id="start-container">
         <div>Enter Your Initials and Press START QUIZ Button to Begin Quiz</div>
-        <input type="text" />
+        <input type="text" id="saved-user"/>
         <button class="startbtn" id="startBtn">Start Quiz</button>
       </div>
       <div id="question-container"></div>
-      <div id="saved-container"
-    </div>
-    <div id="card">
-      <h2>Last Saved Score</h2>
-      <p>User Initials<span id="saved-user"></span></p>
-      <p>Score <span id="saved-score"></span></p>
-    </div>
+      <div id="saved-container"</div>
+        <!-- <button id="savedBtn"></button> -->
+      <div class="card">
+        <h2>Last Saved Score</h2>
+        <p>User Initials:<span id="saved-user"></span></p>
+        <p>Score:<span id="saved-score"></span></p>
+      </div>
+     </div>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
